@@ -26,13 +26,13 @@ def simplesnu(a, b, c):
 
 
 def fi1(x, y, z):
-    return ((1/18)*x**3 + (1/18)*y**3 + (1/9)*z + 3)
+    return (x**3 + y**2 + 7*z**4 - 1)
 
 def fi2(x, y, z):
-    return ((1/18)*x**3 - (1/18)*y**3 + (1/6)*z + 2)
+    return (x + 2*z)
 
 def fi3(x, y, z):
-    return((1/6)*x**2 - (1/3)*y + (1/20)*z)
+    return((x - y - 8*z)**4)
 
-k = np.array([-5, -3, 5])
+k = np.array([-0.99, -0.99, 0.0001])
 simplesnu(k[0], k[1], k[2])
