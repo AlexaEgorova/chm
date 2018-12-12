@@ -35,4 +35,4 @@ def fi3(x, y, z):
     return((x - y - 8*z)**4)
 
 k = np.array([-0.99, -0.99, 0.0001])
-simplesnu(k[0], k[1], k[2])
+simplesnu(*k)
