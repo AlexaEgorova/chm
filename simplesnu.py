@@ -16,11 +16,11 @@ def simplesnu(a, b, c):
         
     df = pd.DataFrame(data, columns=['x', 'y', 'z'])
     print(df)
-    plt.subplot(1, 3, 1)
+    plt.subplot(3, 1, 1)
     plt.plot(df['x'], df['y'], marker = 'o')
-    plt.subplot(1, 3, 2)
+    plt.subplot(3, 1, 2)
     plt.plot(df['y'], df['z'], marker = 'o')
-    plt.subplot(1, 3, 3)
+    plt.subplot(3, 1, 3)
     plt.plot(df['x'], df['z'], marker = 'o')
     return(df)
 
